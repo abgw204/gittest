@@ -14,56 +14,56 @@ setlocale(LC_ALL, "Portuguese");
   
   if(!strcmp(resposta, "berlim") || !strcmp(resposta, "Berlim"))
   
-  {printf("Exatamente, %s é a sede político-administrativa da alemanha.\n", resposta);
+  {printf("Exatamente, %s ï¿½ a sede polï¿½tico-administrativa da alemanha.\n", resposta);
   }
   else
-  {printf("ERROU BAGRE, %s?, nem faz sentido, vá estudar!!!\n", resposta);
+  {printf("ERROU BAGRE, %s?, nem faz sentido, vï¿½ estudar!!!\n", resposta);
   }
   
-  puts("Lá vai mais uma, qual é o planeta mais próximo do sol?");
+  puts("Lï¿½ vai mais uma, qual ï¿½ o planeta mais prï¿½ximo do sol?");
   
   gets(answer);
 
   if(!strcmp(answer, "mercurio")||!strcmp(answer, "Mercurio"))
   
   
-  {printf("Boa! %s é o planeta mais próximo do sol. Acho que da pra pegar um bronze haha.\n", answer);
+  {printf("Boa! %s ï¿½ o planeta mais prï¿½ximo do sol. Acho que da pra pegar um bronze haha.\n", answer);
   }
   
    else if(!strcmp(answer, "venus")||!strcmp(answer, "Venus")){
    
 
-   printf("Errado, na verdade %s é o segundo planeta mais próximo do sol.\n", answer);
+   printf("Errado, na verdade %s ï¿½ o segundo planeta mais prï¿½ximo do sol.\n", answer);
    }
   
   else if(!strcmp(answer, "terra")||!strcmp(answer, "Terra"))
   
-  {printf("Errado, na verdade a %s é o terceiro planeta mais próximo do sol, lar doce lar.\n", answer);
+  {printf("Errado, na verdade a %s ï¿½ o terceiro planeta mais prï¿½ximo do sol, lar doce lar.\n", answer);
   }
   
   else if(!strcmp(answer, "marte")||!strcmp(answer, "Marte"))
   
-  {printf("Errado, na verdade %s é o quarto planeta mais próximo do sol e no sistema solar é o mais parecido com a terra.\n", answer);
+  {printf("Errado, na verdade %s ï¿½ o quarto planeta mais prï¿½ximo do sol e no sistema solar ï¿½ o mais parecido com a terra.\n", answer);
   }
    
   else if(!strcmp(answer, "jupiter")||!strcmp(answer, "Jupiter"))
    
-   {printf("Errado, na verdade %s é o quinto planeta mais próximo do sol, é gasoso e também o maior do sistema solar.\n", answer);
+   {printf("Errado, na verdade %s ï¿½ o quinto planeta mais prï¿½ximo do sol, ï¿½ gasoso e tambï¿½m o maior do sistema solar.\n", answer);
    }
    
    else if(!strcmp(answer, "saturno")||!strcmp(answer, "Saturno"))
    
-   {printf("Errado, na verdade %s é o sexto planeta mais próximo do sol e tem os maiores anéis do sistema solar.\n", answer);
+   {printf("Errado, na verdade %s ï¿½ o sexto planeta mais prï¿½ximo do sol e tem os maiores anï¿½is do sistema solar.\n", answer);
    }
    
    else if(!strcmp(answer, "urano")||!strcmp(answer, "Urano"))
    
-   {printf("Errado, na verdade %s é o segundo planeta mais distante do sol dentro do sistema solar, perdendo apenas para Netuno .\n", answer);
+   {printf("Errado, na verdade %s ï¿½ o segundo planeta mais distante do sol dentro do sistema solar, perdendo apenas para Netuno .\n", answer);
    }
    
    else if(!strcmp(answer, "netuno")||!strcmp(answer, "Netuno"))
    
-   {printf("Errado, na verdade %s é o planeta mais distante do sol dentro do sistema solar, a temperatura média na superfície é de -223 graus celsius.\n", answer);
+   {printf("Errado, na verdade %s ï¿½ o planeta mais distante do sol dentro do sistema solar, a temperatura mï¿½dia na superfï¿½cie ï¿½ de -223 graus celsius.\n", answer);
    }
    
    else if(!strcmp(answer, "plutao")||!strcmp(answer, "Plutao"))
@@ -72,7 +72,7 @@ setlocale(LC_ALL, "Portuguese");
    }
    
    else
-  {printf("Errado, %s nem é um planeta...\n", answer);
+  {printf("Errado, %s nem ï¿½ um planeta...\n", answer);
   }
 
    system("pause");
